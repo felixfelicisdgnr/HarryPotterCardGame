@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "333176807938",
+    "project_id": "hpapplogin",
+    "storage_bucket": "hpapplogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333176807938:android:713ea64b432de06971bd1b",
+        "android_client_info": {
+          "package_name": "com.doganur.demohpgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvBrcG1s1-c2mZUidAmhfjcIUgSFfErjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333176807938:android:d39c7030b9990dfd71bd1b",
+        "android_client_info": {
+          "package_name": "com.doganur.harrypotterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvBrcG1s1-c2mZUidAmhfjcIUgSFfErjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333176807938:android:abe5289e5392460871bd1b",
+        "android_client_info": {
+          "package_name": "com.doganur.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvBrcG1s1-c2mZUidAmhfjcIUgSFfErjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333176807938-otkve8uda6pl0ik66a9534n8vhstsppi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

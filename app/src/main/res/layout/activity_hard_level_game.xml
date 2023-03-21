@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/harrypotterbackground"
+    tools:context=".ui.game.HardLevelGameActivity">
+
+    <Button
+        android:id="@+id/backButtonSingleHardLevel"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:background="#FBAED0"
+        android:text="Back Selection Screen"
+        android:textColor="@color/textColorName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <Button
+        android:id="@+id/stopButton2"
+        android:layout_width="57dp"
+        android:layout_height="27dp"
+        android:background="#FBAED0"
+        android:onClick="stopButton2"
+        android:text="Stop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+
+    <TextView
+        android:id="@+id/hardSinglePlayer1ScoreTV"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textColor="@color/textColorName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/hardSingleCountTextView"
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:text="Left :"
+        android:textAlignment="center"
+        android:textColor="@color/textColorName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="377dp"
+        android:layout_height="541dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:columnCount="6"
+        android:orientation="horizontal"
+        android:rowCount="6"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557">
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton17"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton18"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton19"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton20"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton21"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton22"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="0"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton23"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton24"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton25"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton26"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton27"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton28"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton29"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton30"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton31"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton32"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton33"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton34"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="2"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton35"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton36"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton37"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton38"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton39"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton40"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="3"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton41"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton42"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton43"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton44"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton45"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton46"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="4"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton47"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton48"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton49"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton50"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="3"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton51"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="4"
+            app:srcCompat="@drawable/backcard" />
+
+        <ImageButton
+            android:id="@+id/hardSingleImageButton52"
+            android:layout_width="52dp"
+            android:layout_height="75dp"
+            android:layout_row="5"
+            android:layout_column="5"
+            app:srcCompat="@drawable/backcard" />
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
